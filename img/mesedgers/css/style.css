@@ -1,0 +1,1501 @@
+/*обнуление пандингов и т д*/
+hxml {
+   box-sizing: border-box;
+}
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+/*закрываем обнуление*/
+
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0px auto;
+   padding: 0px;
+   height: 100%;
+  /* 
+  min-width: 1440px;
+  */
+   max-width: 1920px
+
+}
+
+
+.wrapper {
+   position: fixed;   /*     позиционирование     */
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+
+  /* z-index: 0;   /*   еще не знаю как правильно   */
+}
+
+.header_contact {
+   margin-top: -20px;
+   padding-top: 10px;
+
+}
+
+
+.topbar_contact {
+   display: flex;
+   position: sticky;  /* Позиционирование от родителя*/
+   margin: 10 auto;
+   max-width: 700px;
+   margin-right:10px;
+   margin-top: 22px;
+   margin-bottom: 20px;
+   font-size: 13px;
+   font-weight: 400;
+   letter-spacing: 1.5px; /*   буквенный интервал   */
+}
+
+
+
+
+
+
+.iconsmind_Telephone {
+   background: url(../img/phonecwww.png) 20px 2px no-repeat;
+   margin-left: 2px;
+   padding-left: 47px;
+}
+
+
+
+.topbar_email {
+   background: url(../img/mail_1.png) 2px 4px no-repeat;;
+   margin: 0 25px 0 70px;
+   padding-left: 30px;
+}
+
+
+
+
+.topbar_contact a {
+   text-decoration: none;
+   color: #ffffff;/*   потом поменять цвет на белый   */
+   
+}
+
+.conttop a {
+   color: #000;
+}
+
+
+                     /* закончили верХную часть*****************************************/
+
+
+/* -----------------------------------начало средняя часть index html ----------------------------------- */
+.nav {
+  
+   margin-top: 5px;
+   margin-left: 0;
+   letter-spacing: 1.5px;
+   
+}
+.nav_sr {
+  
+   display: flex;
+   justify-content: space-around;
+   border-top: .5px solid #9e9e9e;
+   font-size: 20px;
+   font-weight: 900;
+   font: 'Open Sans';
+   text-transform: uppercase;
+
+}
+.logo {
+    padding: 20px; 
+    margin-left: 50px;
+    margin-bottom: -5px;
+}
+
+.logo img {
+   width: 150px;
+}
+
+
+ul.list li {
+
+   list-style: none;
+   display: inline;
+   text-align: justify;
+   display: inline-block;
+   text-align: right;
+   margin: 5px 35px 0 35px;
+   transition: opacity 0.5s;
+ /*  padding: 0 30px;     если надо чуток верх растянуть главна о нас контакты */
+
+}
+
+.cont a {
+   color: #000;
+}
+ul.list li:hover, ul.list li:active {
+   opacity: .75;
+}
+
+
+
+a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+a:hover {
+   color: rgb(2, 98, 251);
+
+
+}
+
+.text_br h1 {
+   font-size: 46px;
+   font-family: Montserrat;
+   letter-spacing: 0.8px;
+   width: 200px;
+   position: relative;
+   top: 75px;
+   left: 290px;
+   color: #ffffff;
+
+}
+                                       /*   intro stuie start   */
+.main {
+   height: 100vh;
+   background: url(../img/backraund45.jpg) no-repeat center;
+   background-size: cover;
+   padding-top: 180px;
+   
+}
+
+.intro {
+   margin: 180px 0 0 310px;
+   text-align: left;
+}
+
+.intro_title {
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 52px;
+   line-height: 60px;
+   color: #ffffff;
+   margin-right: auto;
+}
+
+.intro_subtitle {
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 60px;
+   color: #ffffff;
+   margin-right: auto;   
+}
+
+p.connect {
+   width:center;
+   display: flex;
+   text-align: left;
+   justify-content: left;
+   line-height: 15px;
+   height: 70px;
+   
+
+}
+
+.button_tel {
+   width: 180px;
+   padding: 20px 39px;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 17px;
+   line-height: 15px;
+   color: #ffffff;
+   background: #E12839;
+   border: 0;
+   margin: 7px;
+   text-align: center;
+   letter-spacing: 0.3px;
+}
+
+.button_kontakt {
+   width: 180px;
+   padding: 20px 39px;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 17px;
+   line-height: 15px;
+   color: #ffffff;
+   background: #E12839;
+   border: 0;
+   margin: 7px;
+   text-align: center;
+   letter-spacing: 0.3px;
+}
+
+.button_tel:hover,.button_tel:active {
+      border: 1px solid red;
+      color:#E12839;
+      background: #ffffff;
+      transition: 1s;
+}
+
+.button_kontakt:hover,.button_kontakt:active {
+   border: 1px solid red;
+   color:#E12839;
+   background: #ffffff;
+   transition: 1s;
+}
+
+/*   intro stuie end   */
+
+/*----------------------------html контакты ----------------------------*/
+.main_contact_img {
+   background: url(../img/backraund45_narrow.jpg) no-repeat center;
+   padding-top: 250px;
+   margin-top: -120px;
+}
+
+
+.intro_contact {
+   display: flex;
+   padding-top: 50px;
+   width: 100%;
+   margin-bottom: -120px;
+
+}
+
+
+
+.intro_title_contact {
+   display: block;
+   float: left;
+   width: 50%;
+   padding: 0 15%;
+
+}
+
+.bloc_contact {
+   display: block;
+   float: right;
+   width: 50%;
+   padding: 0 15% 0 0;
+}
+
+.iconsmind_Telephone_contact {
+   display: block;
+   text-align: center;
+   padding-top: 30px;
+   background: url(../img/telefono.jpg) 31px 15px no-repeat;
+   height: 50px;
+   width: 400px;
+   font-weight: 700;
+}
+
+.iconsmind_mail_contact {
+   display: block;
+   text-align: center;
+   padding-top: 30px;
+   background: url(../img/email_left.jpg) 31px 15px no-repeat;
+   height: 50px;
+   width: 400px;
+   font-weight: 700;
+}
+
+.iconsmind_adress_contact {
+   display: block;
+   text-align: center;
+   padding-top: 30px;
+   background: url(../img/adress.jpg) 31px 15px no-repeat;
+   height: 50px;
+   width: 400px;
+   font-weight: 700;
+}
+
+form {
+   height: 500px;
+   width: 100%;
+}
+
+input {
+   width: 100%;
+   height: 40px;
+   margin: 10px 0;
+   font-size: 18px;
+
+}
+
+textarea {
+   width: 100%;
+   height: 80px;
+   margin: 10px 0;
+   font-size: 18px;
+   font-weight: 600;
+
+
+   
+}
+
+.inputdata {
+  font-weight: 900;
+  color: black;
+}
+
+.btn {
+   background: #E12839;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 17px;
+   line-height: 15px;
+   color: #ffffff;
+   background: #E12839;
+   text-align: center;
+   padding: 10px 5px;
+   border: 0;
+   transition: 1s;
+}
+
+.btn:hover {
+   border: 1px solid red;
+   color:#E12839;
+   background: #ffffff;
+}
+/* ---------------------------------- end contact ----------------------------- */
+
+/* ---------------------------------- start about us -------------------------- */
+
+.about_us {
+   height: 1100px;
+   color: #757070;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+   
+}
+
+.about_us_fon {
+   background: url(../img/backraund45_narrow.jpg) no-repeat center;
+   height:250px;
+   margin-top: -118px;
+}
+
+
+.zag {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.about_us_main {
+   font-size: 35px;
+   text-align: center;
+   margin: 45px;
+}
+
+.about_us_text {
+   display: block;
+   margin: 0 auto;
+   width: 45%;
+   float: left;
+   margin: 30px 0 0 70px;
+}
+
+.about_us_text_next {
+   display: block;
+   font-size: 16px;
+}
+
+
+
+.about_us_text_li {
+   margin: 50px;
+   color: red;
+
+}
+
+.about_us_text_li p {
+   color: #757070;
+   margin-left: 20px;
+   font-size: 16px;
+
+}
+
+.about_us_text_li span {
+   color: #757070;
+}
+
+.about_us_text_mesage {
+   display: flex;
+   justify-content: space-between;
+   font-size: 23px;
+   color: #2f2f2f;
+   font-weight: 700;
+   padding-top: 10px;
+   width: 100%;
+   background: #F7F7F7;
+   padding: 5px;
+   margin: 20px 0 50px 0;
+
+}
+
+.about_us_text_mesage p {
+   width: 50%;
+   text-align: center;
+}
+
+.about_us_text_mesage_text {
+   text-align: left;
+   display: flex;
+
+}
+
+.about_us_text_mesage p a {
+   margin: 0 10px;
+}
+
+/* ---конец левого блока ---*/
+
+.about_us_textright {
+   display: block;
+   float: right;
+   width: 45%;
+   padding: 10px;
+   margin: 0px 20 500px 0;
+   
+}
+
+.about_us_text_right_ul {
+   padding-right: 190px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #000;
+}
+
+.about_us_text_right_ul li {
+   border: solid 1px rgb(54, 54, 54);
+  /* background-color: palevioletred;*/
+   padding: 25px 25px 25px 45px;
+   margin: 25px 25px 25px 18px;
+   list-style: none;
+
+}
+
+.about_us_textright_img {
+   margin: 60px 0 0 60px;
+}
+/* ---------------------------------- end about us -------------------------- */
+
+/* ---------------------------------- start tovar -------------------------- */
+.wpapper_tovar {
+   display: flex;
+   justify-content: left;
+   width: 1820px;
+   height: 500px;
+   color: #000;
+   font-family: 'Open Sans';
+}
+
+.wpapper_tovar_left {
+   width: 1300px;
+   text-align: left;
+   padding: 0 0 0 10px;
+   margin-left: 10px;
+}
+
+.wpapper_tovar_right {
+   display: block;
+   float: right;
+   width: 400px;
+   margin-left: 140px;
+}
+
+.wpapper_tovar_right p {
+   margin-left: 50px ;
+   font-weight: 700;
+}
+
+.wpapper_tovar_right ul {
+   list-style: none;
+   font-size: 14px;
+
+
+}
+
+.wpapper_tovar_right ul li {
+   background:  #5F6766;
+   text-align: left;
+   border: 1px solid rgb(190, 189, 189);
+   color: #9e9e9e;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   padding: 13px 60px;
+
+
+}
+
+.share_tovar {
+
+   display: flex;
+   justify-content:flex-end;
+   margin: 10px;
+   margin-left: 200px;
+
+
+}
+
+.share_tovar p {
+   margin: 10px;
+   font-weight: 500;
+
+}
+ 
+.tovar_blok_li li:hover {
+   padding: 18px 18px 18px 100px;
+
+
+}
+
+/* ---------------------------------- end tovar -------------------------- */
+
+/* ---------------------------------- start footer -------------------------- */
+.footer {
+   margin-top: 70px;
+   display: flex;
+   margin-top: -20px;
+   width: 100%;
+   height: 230px;
+
+   font-size: 14px;
+   font-weight: 500;
+   background-color: #1F1F1F;
+   color: #ffffff;
+   text-align: left 150px;
+   line-height: 25px;
+   padding-bottom: 30px;
+   padding-top: 120px;
+}
+
+.messangers { 
+   display:flex;
+   justify-content: center;
+   background-color:rgb(26, 26, 26);
+   height:80px;
+   width:600px;
+   margin-top:-50px;
+   margin-bottom: -70px;
+   margin-left: auto;
+   margin-right: auto;
+   line-height: 20px;
+   position: relative;
+   top: 10px;
+   color:#ffffff;
+   font-size:14px;
+   font-weight:400;
+   letter-spacing: 1px;
+   text-align: center;
+   padding: 0 40px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+
+.messangers p {
+   margin: 28px 10px;
+   padding-top: 0px;
+}
+
+
+.footer_meseger a img {
+   margin: -5px 0 20px 30px;
+   width: 30px;
+
+}
+
+
+/*                футер первая колонка начало            */
+
+
+
+.footer_nav {
+   width: 33.3%;
+   height: 215px;
+   list-style: none;
+   line-height: 37px;
+   letter-spacing: 1.5px;
+  /* padding-left: 180px;*/
+  align-items: center;
+  text-align: center;
+   border-right: 1px solid #605F5E;
+}
+/*                футер первая колонка конец            */
+.footor_li {
+   list-style: none;
+   font-weight: 700;
+}
+.footor_menu {
+   font-size: 16px;
+   font-weight: 700;
+   padding-bottom: 20px;
+   text-transform: uppercase;
+}
+
+.footer_address {
+   font-size: 16px;
+   font-weight: 800;  
+   text-transform: uppercase; 
+}
+/*                футер вторая колонка начало            */
+.footer_info {
+   width: 33.3%;
+   height: 215px;
+   font-family: 'Open Sans';
+   font-size: 14px;
+   line-height: 25px;
+   letter-spacing: 1.5px;
+  /* padding-left: 150px;*/
+   border-right: 1px solid #605F5E;
+   margin-bottom: 5px;
+   text-align: center;
+}
+/*                футер вторая колонка конец            */
+
+/*                  футер третья колонка начало            */
+.footer_loc {
+   width: 33.3%;
+   height: 215px;
+  /* list-style: none;*/
+   line-height: 37px;
+   letter-spacing: 1.5px;
+   padding: 0 40px 60px 40px;
+   
+
+}
+
+
+
+/*                футер третья колонка конец            */
+
+.footer_saab {
+   width: 150px;
+   height: auto;
+}
+
+.textfooter {
+   display: block;
+   line-height: 25px;
+}
+
+.named {
+   font-weight: 700;
+   padding-left: 7px;
+}
+
+.end {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: 0px auto;
+   background-color: #1A1A1A;
+   color: #ffffff;
+   font-weight: 400;
+   height: 25px;
+   font-family: 'Open Sans';
+   font-size: 13px;
+   line-height: 24px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+
+/* ------------------------------   СSS Mobile   -------------------------------- */
+/* ------------------------------   СSS Mobile   -------------------------------- */
+/* ------------------------------   СSS Mobile   -------------------------------- */
+/*                                                                                */
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* ------------------------------   СSS Mobile top index  -------------------------------- */
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.topbar_contact {
+   display: block;
+   margin: 0;
+   padding: 0;
+   height: 15%;
+   width: 100%;
+   padding-top: 2%;
+
+}
+
+.iconsmind_Telephone {
+   display: block;
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   margin-left: 12%;
+   padding-left: 12%;
+   padding-bottom: 5px;
+}
+
+.topbar_email {
+   display: block;
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   margin-left: 16%;
+   padding-left: 10%;
+   padding-bottom: 5px;
+}
+/* -----------------------   СSS Mobile top    ( index  end )  ----------  ---------------- */
+
+
+/* ------------------------------   СSS Mobile  nav   (html) -------------------------------- */
+.nav {
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.nav_sr {
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+   line-height: 50px;
+}
+
+.logo {
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   margin-top: 3%;
+   margin-left: 3%;
+}
+
+ul.list {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   font-size: 130%;
+   text-align: center;
+   margin-top: 3%;
+   margin-right: 25%;
+}
+
+ul.list li {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+}
+
+/* -----------------   СSS Mobile  (   HTML kontakt)  content-------------------------------- */
+.main {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.intro {
+   margin: 0;
+   padding: 0;
+   padding-top: 70%;
+   text-align: center;
+}
+
+.intro_title {
+   font-size: 100%;
+   margin-top: 10%;
+}
+
+
+.intro_subtitle {
+   font-size: 100%;
+   line-height: 120%;
+   margin-top: 10%;
+}
+
+.connect {
+   display: inline-block;
+   align-items: center;
+   margin: 0;
+   padding: 0%;
+   width: 100%;
+   letter-spacing: .5%;
+   padding-top: 10%;
+   font-size: 70%;
+   
+}
+
+.button_tel {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   margin: 2%;
+   margin-top: 4%;
+   margin-bottom: 5%;
+   padding: 2%;
+
+   font-size: 90%;
+}
+
+.button_kontakt {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   margin: 2%;
+   margin-top: 4%;
+   margin-bottom: 5%;
+   padding: 2%;
+   padding-top: 2%;
+   font-size: 90%;
+}
+/* ---------------   СSS Mobile  Footer  HTML-------------------------------- */
+
+
+/* ------------------------------   СSS Mobile  nav   (html)   end ---------------------------- */
+/* ------------   СSS Mobile  nav   (about_us) -------------------------------- */
+
+.conttop {     /*       акуратно двойной класс  !!!      */
+   margin-top: 3%;
+   margin-bottom: 1%;
+}
+
+
+
+
+.about_us_text {
+   display: block;
+   margin: 0;
+   padding: 0;
+   float: none;
+   width: 100%;
+}
+
+.about_us_fon {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 10%;
+}
+
+
+
+
+.text_br {
+   display: block;
+   margin: 0;
+   padding: 0;
+   margin-left: -63%;
+   margin-top: -10%;
+   margin-bottom: -12%;
+}
+
+.text_br h1 {
+   margin: 0;
+   padding: 0;
+   margin-bottom: 5%;
+   position: relative;
+   left: 40%;
+ 
+}
+
+
+
+.about_us {
+   margin: 0;
+   padding: 0;
+
+
+}
+
+h2.zag {
+   margin: 0;
+   padding: 0;
+   width: 50%;
+   text-align: center;
+   margin-top: 5%;
+   padding-left: 25%;
+}
+
+.about_us_text {
+   margin: 0;
+   padding: 0;
+}
+
+
+.about_us_text_next {
+   display: block;
+   margin: 5%;
+   padding: 0;
+   text-align: left;
+   width: 90%;
+   height: 100%;
+   padding-top: 5%;
+}
+
+.about_us_text_li {
+   margin: 5%;
+   margin-right: 10%;
+   padding: 0;
+   font-size: 100%;
+   
+}
+
+.about_us_text_blok  {
+   margin: 5%;
+   padding: 0;
+
+}
+
+.about_us_text_mesage {
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+   font-size: 140%;
+   margin-top: 7%;
+   margin-bottom: 5%;
+   padding-bottom: 5%;
+}
+
+p.about_us_text_mesage_text {
+   font-size: 140%;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+p.about_us_mesage_img {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   width: 100%;
+   margin-top: 7%;
+}
+
+p.about_us_mesage_img a {
+   margin: 0;
+   padding: 0;
+   padding: 4%;
+}
+
+.about_us_textright {
+   display: none;
+}
+
+
+/* ------------------------------   СSS Mobile  nav   (kontakt) -------------------------------- */
+
+
+
+.too h1 {
+   margin-bottom: 5%;
+   position: relative;
+   left: 0;
+   padding-left: 40%;
+}
+
+.main_contact {
+   margin: 0;
+   padding: 0;
+   margin-top: 35%;
+}
+
+.main_contact_img {
+   margin: 0;
+   margin-top: -39%;
+   padding: 17%;
+   height: 20%;
+}
+
+.intro_contact {
+   margin: 0;
+   padding: 0;
+   display: block;
+}
+
+.intro_title_contact {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   float: none;
+}
+
+.intro_title_contact h2 {
+   font-size: 100%;
+   text-align: center;
+}
+
+.intro_title_contact p {
+   font-family: 'Open Sans', sans-serif;
+   text-align: left;
+   padding: 3%;
+}
+
+.bloc_contact {
+   margin: 0;
+   padding: 0;
+   float: none;
+   width: 100%;
+}
+
+.bloc_contact h2 {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%;
+}
+
+.bloc_contact p {
+   margin: 0;
+   padding: 0;
+   padding-left: 3%;
+   padding-bottom: 5%;
+}
+
+
+.contact_left_contact {
+   width: 100%;
+   margin-left: -5%;
+}
+
+.contact_left_contact p {
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   width: 100%;
+}
+
+.contact_left_contact p span {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   padding-top: 7%;
+   padding-left: 5%;
+   font-size: 90%;
+}
+
+form {
+
+   margin: 0;
+   padding: 0;
+   width: 90%;
+   height: 100%;
+   margin-bottom: 10%;
+   padding-left: 5%;
+}
+
+input {
+   margin: 0;
+   padding: 0;
+   margin-top: 3%;
+}
+
+.btn {
+   margin: 0;
+   padding: 0;
+   padding-left: 1%;
+}
+
+
+/*                                                                            */
+/*                                  футер топ                                 */
+
+.messangers {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   margin-top: -5%;
+   display: block;
+
+}
+
+.messangers p {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+   padding-top: 30px;
+
+}
+
+.footer_text_mesanger {
+   margin: 0;
+   padding: 0;
+  
+}
+
+
+
+.footer_meseger a img {
+   margin: 7% 5% 7% 5%;
+   width: 10%;
+}
+/*                          конец верхнего футора    */
+
+.footer_abouttt {
+   margin-top: 155%;
+}
+
+.footer {
+   display: inline-block;
+   text-align: center;
+   padding-bottom: 20%;
+
+}
+
+.footer_nav {
+   margin: 0%;
+   padding: 0;
+   width: 100%;
+   margin-bottom: 10%;
+   letter-spacing: 1.5px;
+
+}
+
+.footor_li {
+   margin: 0;
+   padding: 0;
+   font-size: 25px;
+   line-height: 60px;
+}
+
+.footor_menu {
+   margin-top: 30px;
+}
+
+.footer_info {
+   margin: 0px;
+   padding: 0;
+   width: 100%;
+   background: #1F1F1F;
+   padding-top: 40px;
+   
+}
+
+.footer_info p {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background: #1F1F1F;
+
+}
+
+.footer_loc {
+   margin: 0;
+   width: 100%;
+   background: #1F1F1F;
+   padding: 10%;
+}
+
+.textfooter {
+   padding-top: 20px;
+}
+
+
+.footer_address {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   padding-top: 10%;
+}
+
+.footer_loc {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.footer p {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background: #1F1F1F;
+}
+
+.end {
+   display: block;
+   margin: 0;
+   padding: 0;
+   background: #1A1A1A;
+   padding-top: 12%;
+   padding-bottom: 10%;
+
+}
+.end span {
+   display: block;
+   margin: 0;
+   background: #1A1A1A;
+
+
+}
+
+/*                          конец верхнего футора    */
+
+
+/* ------------------------------   СSS Mobile  Footer end -------------------------------- */
+
+
+
+
+
+
+}
+
+@media only screen 
+and (min-device-width : 562px)
+and (max-device-width : 900px){
+
+.main {
+   margin: 0;
+   width: 100%;
+}
+
+.intro {
+   margin: 0;
+   padding: 5%;
+
+
+
+} 
+
+.connect {
+   display: inline-block;
+
+}
+
+/*                   страница          о нас                  */
+.about_us {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+
+}
+
+
+.about_us_textright {
+   display: none;
+}
+
+.about_us_text {
+   display: block;
+   margin: 0;
+   padding: 10%;
+   float: none;
+   width: 78%;
+
+   
+
+
+}
+
+.about_us_text_next {
+   padding: 0;
+   margin: 0;
+
+
+}
+
+
+
+
+/*                   страница          контакты               */
+
+.intro_contact {
+   flex: none;
+   display: block;
+   margin-bottom: 30px;
+}
+
+.intro_title_contact {
+   display: block;
+   padding: 10%;
+   margin: 0 auto;
+   float: none;
+   width: 80%;
+}
+
+.intro_title_contact h2{
+   text-align: center;
+}
+
+.contact_left_contact {
+   margin-left: 20%;
+}
+
+.bloc_contact {
+   float: none;
+   display: block;
+   padding: 0 10%;
+   width: 80%;
+}
+
+.bloc_contact h2 {
+   text-align: center;
+}
+/*                                             footer  mob     */
+
+.messangers {
+   display: block;
+   width: 80%;
+   padding-top: 10px;
+   height: 70px;
+}
+
+
+.footer {
+   height: 600px;
+   display: block;
+}
+
+.footer_meseger a img {
+   margin: 2% 6% 5% 6%;
+   width: 9%;
+
+}
+
+
+.footer_nav {
+
+width: 80%;
+padding: 5%;
+border-right: none;
+
+}
+
+.footor_li {
+
+   font-size: 20px;
+   width: 100%;
+}
+
+.footer_info {
+display: block;
+float: left;
+width: 47%;
+padding-top: 5%;
+border: none;
+
+}
+
+.footer_loc {
+   padding: 1%;
+   margin: 0;
+   display: block;
+width: 49%;
+float: right;
+text-align: start;
+padding-top: 50px;
+
+
+
+
+
+}
+
+.footer_loc a {
+   display: none;
+}
+
+
+.end {
+display: flex;
+width: 100%;
+
+
+}
+
+
+}
+
+/*                                 */
+
+@media only screen 
+and (min-device-width : 900px)
+and (max-device-width : 1400px){
+
+.about_us_text_blok {
+   width: 200%;
+
+}
+
+
+
+.about_us_text_right_ul {
+   padding: 0;
+}
+
+.about_us_textright_img img {
+   margin: 60px 0 0 0px;
+   width: 90%;
+}
+
+.intro_title_contact {
+   padding: 0 5%;
+}
+
+.bloc_contact {
+   width: 45%;
+   padding: 0 5%;
+}
+
+.footer {
+   height: auto;
+}
+
+
+.footer_loc {
+   text-align: right;
+   margin-top: -2%;
+}
+
+.footer_saab {
+   width: 150px;
+   height: auto;
+}
+
+.footer_nav {
+   padding: 0 0 5% 3%;
+}
+
+.textfooter {
+   text-align: center;
+}
+
+.footer_info {
+   padding: 0 0 0 5%;
+}
+
+.footer_loc {
+   padding: 0 2%;
+   margin-top: -5%;
+}
+
+
+
+
+
+
+}

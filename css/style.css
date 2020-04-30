@@ -973,8 +973,9 @@ h2.zag {
    width: 100%;
    text-align: center;
    font-size: 140%;
-   margin-top: 7%;
+   margin-top: 10%;
    margin-bottom: 5%;
+   padding-top: 5%;
    padding-bottom: 5%;
 }
 

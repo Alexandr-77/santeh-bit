@@ -1181,8 +1181,8 @@ input {
 .footor_li {
    margin: 0;
    padding: 0;
-   font-size: 25px;
-   line-height: 60px;
+   font-size: 22px;
+   line-height: 50px;
 }
 
 .footor_menu {
@@ -1243,8 +1243,8 @@ input {
    margin: 0;
    padding: 0;
    background: #1A1A1A;
-   padding-top: 12%;
-   padding-bottom: 10%;
+   padding-top: 4%;
+   padding-bottom: 13%;
 
 }
 .end span {

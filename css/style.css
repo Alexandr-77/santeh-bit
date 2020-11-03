@@ -11,28 +11,19 @@ hxml {
 body {
    font-family: 'Open Sans', sans-serif;
    margin: 0px auto;
-   padding: 0px;
-   height: 100%;
+
 }
-
-
 .wrapper {
    position: fixed;   /*     позиционирование     */
    top: 0;
    left: 0;
    width: 100%;
    position: absolute;
-
-  /* z-index: 0;   /*   еще не знаю как правильно   */
 }
-
 .header_contact {
    margin-top: -20px;
    padding-top: 10px;
-
 }
-
-
 .topbar_contact {
    display: flex;
    position: sticky;  /* Позиционирование от родителя*/
@@ -45,53 +36,33 @@ body {
    font-weight: 400;
    letter-spacing: 1.5px; /*   буквенный интервал   */
 }
-
-
-
-
-
-
 .iconsmind_Telephone {
    background: url(../img/phonecwww.png) 20px 2px no-repeat;
    margin-left: 2px;
    padding-left: 47px;
 }
-
-
-
 .topbar_email {
    background: url(../img/mail_1.png) 2px 4px no-repeat;;
    margin: 0 25px 0 70px;
    padding-left: 30px;
 }
-
-
-
-
 .topbar_contact a {
    text-decoration: none;
    color: #ffffff;/*   потом поменять цвет на белый   */
-   
 }
-
 .conttop a {
    color: #000;
 }
+/*  ===== закончили верХную часть  =================*/
 
-
-                     /* закончили верХную часть*****************************************/
-
-
-/* -----------------------------------начало средняя часть index html ----------------------------------- */
+/* ====== начало средняя часть index html ------------- */
 .nav {
   
    margin-top: 5px;
    margin-left: 0;
    letter-spacing: 1.5px;
-   
 }
 .nav_sr {
-  
    display: flex;
    justify-content: space-around;
    border-top: .5px solid #9e9e9e;
@@ -99,21 +70,16 @@ body {
    font-weight: 900;
    font: 'Open Sans';
    text-transform: uppercase;
-
 }
 .logo {
     padding: 20px; 
     margin-left: 50px;
     margin-bottom: -5px;
 }
-
 .logo img {
    width: 150px;
 }
-
-
 ul.list li {
-
    list-style: none;
    display: inline;
    text-align: justify;
@@ -122,18 +88,13 @@ ul.list li {
    margin: 5px 35px 0 35px;
    transition: opacity 0.5s;
  /*  padding: 0 30px;     если надо чуток верх растянуть главна о нас контакты */
-
 }
-
 .cont a {
    color: #000;
 }
 ul.list li:hover, ul.list li:active {
    opacity: .75;
 }
-
-
-
 a {
    text-decoration: none;
    color: #ffffff;
@@ -141,10 +102,7 @@ a {
 
 a:hover {
    color: rgb(2, 98, 251);
-
-
 }
-
 .text_br h1 {
    font-size: 46px;
    font-family: Montserrat;
@@ -161,13 +119,12 @@ a:hover {
    height: 100vh;
    background: url(../img/backraund45.jpg) no-repeat center;
    background-size: cover;
-   padding-top: 180px;
-   
+   padding-top: 100px;
 }
 
 .intro {
-   margin: 180px 0 0 310px;
-   text-align: left;
+   margin: 180px auto;
+   text-align: center;
 }
 
 .intro_title {
@@ -176,7 +133,7 @@ a:hover {
    font-size: 52px;
    line-height: 60px;
    color: #ffffff;
-   margin-right: auto;
+   margin: 0 auto;
 }
 
 .intro_subtitle {
@@ -191,8 +148,8 @@ a:hover {
 p.connect {
    width:center;
    display: flex;
-   text-align: left;
-   justify-content: left;
+   text-align: center;
+   justify-content: center;
    line-height: 15px;
    height: 70px;
    
@@ -252,16 +209,12 @@ p.connect {
    margin-top: -120px;
 }
 
-
 .intro_contact {
    display: flex;
    padding-top: 50px;
    width: 100%;
    margin-bottom: -120px;
-
 }
-
-
 
 .intro_title_contact {
    display: block;
@@ -302,7 +255,7 @@ p.connect {
    display: block;
    text-align: center;
    padding-top: 30px;
-   background: url(../img/adress.jpg) 31px 15px no-repeat;
+   background-: url(../img/adress.jpg) 31px 15px no-repeat;
    height: 50px;
    width: 400px;
    font-weight: 700;
@@ -373,7 +326,9 @@ textarea {
 
 .about_us_fon {
    background: url(../img/backraund45_narrow.jpg) no-repeat center;
-   height:250px;
+   background-size: cover;
+   max-width: 100%;
+   height:100vh;
    margin-top: -118px;
 }
 
@@ -562,7 +517,7 @@ margin-bottom: 30px;
    display: flex;
    margin-top: -20px;
    width: 100%;
-   height: 230px;
+   min-height: 230px;
 
    font-size: 14px;
    font-weight: 500;
@@ -579,7 +534,7 @@ margin-bottom: 30px;
    justify-content: center;
    background-color:rgb(26, 26, 26);
    height:80px;
-   width:600px;
+   max-width:600px;
    margin-top:-50px;
    margin-bottom: -70px;
    margin-left: auto;
@@ -661,11 +616,9 @@ margin-bottom: 30px;
 /*                  футер третья колонка начало            */
 .footer_loc {
    width: 33.3%;
-   height: 215px;
-  /* list-style: none;*/
    line-height: 37px;
    letter-spacing: 1.5px;
-   padding: 0 0px 60px 0px;
+   padding: 0 40px 60px 40px;
    
 
 }
@@ -677,14 +630,11 @@ margin-bottom: 30px;
 .footer_saab {
    width: 150px;
    height: auto;
-   padding-left: 43px;
 }
 
 .textfooter {
    display: block;
    line-height: 25px;
-   padding-left: 50px;
-   padding-right: 20px;
 }
 
 .named {
@@ -713,6 +663,11 @@ margin-bottom: 30px;
 /* ------------------------------   СSS Mobile   -------------------------------- */
 /* ------------------------------   СSS Mobile   -------------------------------- */
 /*                                                                                */
+@media (max-width : 1400px) {
+
+
+}
+
 
 @media only screen 
 and (min-device-width : 320px)
@@ -973,7 +928,7 @@ h2.zag {
    font-size: 140%;
    margin-top: 10%;
    margin-bottom: 5%;
-   padding-top: 5%;
+   padding-top: 2%;
    padding-bottom: 5%;
 }
 
@@ -1003,7 +958,7 @@ p.about_us_mesage_img a {
 }
 
 
-/* ------------------------------   СSS Mobile  nav   (kontakt) -------------------------------- */
+/* ---------   СSS Mobile  nav   (kontakt) ----- */
 
 
 
@@ -1154,7 +1109,7 @@ input {
 /*                          конец верхнего футора    */
 
 .footer_abouttt {
-   margin-top: 165%;
+   margin-top: 155%;
 }
 
 .footer {
@@ -1176,8 +1131,8 @@ input {
 .footor_li {
    margin: 0;
    padding: 0;
-   font-size: 22px;
-   line-height: 50px;
+   font-size: 25px;
+   line-height: 60px;
 }
 
 .footor_menu {
@@ -1238,8 +1193,8 @@ input {
    margin: 0;
    padding: 0;
    background: #1A1A1A;
-   padding-top: 4%;
-   padding-bottom: 13%;
+   padding-top: 12%;
+   padding-bottom: 10%;
 
 }
 .end span {
@@ -1267,7 +1222,7 @@ and (min-device-width : 562px)
 and (max-device-width : 900px){
 
 .main {
-   margin: 0;
+   margin: 60px auto;
    width: 100%;
 }
 
@@ -1316,14 +1271,8 @@ and (max-device-width : 900px){
 
 
 }
-
-
-
-
 /*                   страница          контакты               */
-
 .intro_contact {
-   flex: none;
    display: block;
    margin-bottom: 30px;
 }
@@ -1354,7 +1303,7 @@ and (max-device-width : 900px){
 .bloc_contact h2 {
    text-align: center;
 }
-/*                                             footer  mob     */
+/*            footer  mob     */
 
 .messangers {
    display: block;
@@ -1365,7 +1314,6 @@ and (max-device-width : 900px){
 
 
 .footer {
-   height: 600px;
    display: block;
 }
 
@@ -1377,40 +1325,35 @@ and (max-device-width : 900px){
 
 
 .footer_nav {
+   display: block;
+   padding: 0;
+   margin: 0 auto;
+   padding-top: 8%;
+   border: none;
 
-width: 80%;
-padding: 5%;
-border-right: none;
 
 }
 
 .footor_li {
-
+   padding: 0;
    font-size: 20px;
-   width: 100%;
+   float: none;
+
 }
 
 .footer_info {
 display: block;
-float: left;
-width: 47%;
 padding-top: 5%;
 border: none;
+margin: 0 auto;
 
 }
 
 .footer_loc {
-   padding: 1%;
-   margin: 0;
+   margin: 0 auto;
+   padding: 0;
    display: block;
-width: 49%;
-float: right;
-text-align: start;
-padding-top: 50px;
-
-
-
-
+   text-align: center;
 
 }
 
@@ -1418,14 +1361,10 @@ padding-top: 50px;
    display: none;
 }
 
-
 .end {
 display: flex;
 width: 100%;
-
-
 }
-
 
 }
 
@@ -1459,40 +1398,6 @@ and (max-device-width : 1400px){
    width: 45%;
    padding: 0 5%;
 }
-
-.footer {
-   height: auto;
-}
-
-
-.footer_loc {
-   text-align: right;
-   margin-top: -2%;
-}
-
-.footer_saab {
-   width: 150px;
-   height: auto;
-}
-
-.footer_nav {
-   padding: 0 0 5% 3%;
-}
-
-.textfooter {
-   text-align: center;
-}
-
-.footer_info {
-   padding: 0 0 0 5%;
-}
-
-.footer_loc {
-   padding: 0 2%;
-   margin-top: -5%;
-}
-
-
 
 
 

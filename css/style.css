@@ -114,7 +114,7 @@ a:hover {
    color: #ffffff;
 
 }
-                                       /*   intro stuie start   */
+            /*   intro stuie start   */
 .main {
    height: 100vh;
    background: url(../img/backraund45.jpg) no-repeat center;
@@ -255,7 +255,7 @@ p.connect {
    display: block;
    text-align: center;
    padding-top: 30px;
-   background-: url(../img/adress.jpg) 31px 15px no-repeat;
+   background: url(../img/adress.jpg) 31px 15px no-repeat;
    height: 50px;
    width: 400px;
    font-weight: 700;
@@ -309,9 +309,9 @@ textarea {
    color:#E12839;
    background: #ffffff;
 }
-/* ---------------------------------- end contact ----------------------------- */
+/* -------- end contact ----------------------------- */
 
-/* ---------------------------------- start about us -------------------------- */
+/* ------ start about us -------------------------- */
 
 .about_us {
    height: 1100px;
@@ -328,7 +328,7 @@ textarea {
    background: url(../img/backraund45_narrow.jpg) no-repeat center;
    background-size: cover;
    max-width: 100%;
-   height:100vh;
+   min-height: 250px;
    margin-top: -118px;
 }
 
@@ -436,9 +436,9 @@ margin-bottom: 30px;
 .about_us_textright_img {
    margin: 60px 0 0 60px;
 }
-/* ---------------------------------- end about us -------------------------- */
+/* -------------- end about us -------------------------- */
 
-/* ---------------------------------- start tovar -------------------------- */
+/* -------------- start tovar -------------------------- */
 .wpapper_tovar {
    display: flex;
    justify-content: left;
@@ -509,9 +509,9 @@ margin-bottom: 30px;
 
 }
 
-/* ---------------------------------- end tovar -------------------------- */
+/* ------------- end tovar -------------------------- */
 
-/* ---------------------------------- start footer -------------------------- */
+/* ------------ start footer -------------------------- */
 .footer {
    margin-top: 70px;
    display: flex;
@@ -625,7 +625,7 @@ margin-bottom: 30px;
 
 
 
-/*                футер третья колонка конец            */
+/*        футер третья колонка конец            */
 
 .footer_saab {
    width: 150px;
@@ -659,14 +659,207 @@ margin-bottom: 30px;
 }
 
 
-/* ------------------------------   СSS Mobile   -------------------------------- */
-/* ------------------------------   СSS Mobile   -------------------------------- */
-/* ------------------------------   СSS Mobile   -------------------------------- */
+/* -------   СSS Mobile   --------- */
+/* -------   СSS Mobile   -------- */
+/* -------   СSS Mobile   -------- */
 /*                                                                                */
-@media (max-width : 1400px) {
+/* @media (max-width : 1400px) {
+
+
+} */
+
+
+/*   ========  СSS Mobile  Footer end   =======    */
+/*   ========  СSS Mobile  Footer end   =======    */
+/*   ========  СSS Mobile  Footer end   =======    */
+@media only screen 
+and (min-device-width : 900px)
+and (max-device-width : 1400px){
+
+.about_us_text_blok {
+   width: 200%;
+
+}
+
+.about_us_text_right_ul {
+   padding: 0;
+}
+
+.about_us_textright_img img {
+   margin: 60px 0 0 0px;
+   width: 90%;
+}
+
+.intro_title_contact {
+   padding: 0 5%;
+}
+
+.bloc_contact {
+   width: 45%;
+   padding: 0 5%;
+}
 
 
 }
+/*  ==========   562 х 900   ======== */
+/*  ==========   562 х 900   ======== */
+/*  ==========   562 х 900   ======== */
+
+@media only screen 
+and (min-device-width : 562px)
+and (max-device-width : 900px){
+
+/* .nav_sr {
+   display: block;
+   margin: 50px auto;
+}
+ul.list li {
+   display: block;
+   
+} */
+.main {
+   margin: 0px auto;
+   padding: 50px;
+}
+
+.intro_subtitle {
+   font-size: 20px;
+   line-height: 60px;
+
+} 
+
+.connect {
+   display: inline-block;
+
+}
+
+/*      страница о нас           */
+
+.about_us {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+
+}
+
+
+.about_us_textright {
+   display: none;
+}
+
+.about_us_text {
+   display: block;
+   margin: 0;
+   padding: 10%;
+   float: none;
+   width: 78%;
+
+}
+
+.about_us_text_next {
+   padding: 0;
+   margin: 0;
+
+}
+/*                   страница          контакты               */
+.intro_contact {
+   display: block;
+   margin-bottom: 30px;
+}
+
+.intro_title_contact {
+   display: block;
+   padding: 10%;
+   margin: 0 auto;
+   float: none;
+   width: 80%;
+}
+
+.intro_title_contact h2{
+   text-align: center;
+}
+
+.contact_left_contact {
+   margin-left: 20%;
+}
+
+.bloc_contact {
+   float: none;
+   display: block;
+   padding: 0 10%;
+   width: 80%;
+}
+
+.bloc_contact h2 {
+   text-align: center;
+}
+/*            footer  mob     */
+
+.messangers {
+   display: block;
+   width: 80%;
+   padding-top: 10px;
+   height: 70px;
+}
+
+
+.footer {
+   display: block;
+}
+
+.footer_meseger a img {
+   margin: 2% 6% 5% 6%;
+   width: 9%;
+
+}
+
+
+.footer_nav {
+   display: block;
+   padding: 0;
+   margin: 0 auto;
+   padding-top: 8%;
+   border: none;
+
+
+}
+
+.footor_li {
+   padding: 0;
+   font-size: 20px;
+   float: none;
+
+}
+
+.footer_info {
+display: block;
+padding-top: 5%;
+border: none;
+margin: 0 auto;
+
+}
+
+.footer_loc {
+   margin: 0 auto;
+   padding: 0;
+   display: block;
+   text-align: center;
+
+}
+
+.footer_loc a {
+   display: none;
+}
+
+.end {
+display: flex;
+width: 100%;
+}
+
+}
+
+/*                                 */
 
 
 @media only screen 
@@ -714,10 +907,10 @@ body {
    padding-left: 10%;
    padding-bottom: 5px;
 }
-/* -----------------------   СSS Mobile top    ( index  end )  ----------  ---------------- */
+/* ------   СSS Mobile top    ( index  end )  ----------  ---------------- */
 
 
-/* ------------------------------   СSS Mobile  nav   (html) -------------------------------- */
+/* ---   СSS Mobile  nav   (html) -------------------------------- */
 .nav {
    display: block;
    margin: 0;
@@ -760,7 +953,7 @@ ul.list li {
    text-align: center;
 }
 
-/* -----------------   СSS Mobile  (   HTML kontakt)  content-------------------------------- */
+/* -----  СSS Mobile  (   HTML kontakt)  content-------------------------------- */
 .main {
    margin: 0;
    padding: 0;
@@ -821,19 +1014,16 @@ ul.list li {
    padding-top: 2%;
    font-size: 90%;
 }
-/* ---------------   СSS Mobile  Footer  HTML-------------------------------- */
+/* -----   СSS Mobile  Footer  HTML-------------------------------- */
 
 
-/* ------------------------------   СSS Mobile  nav   (html)   end ---------------------------- */
-/* ------------   СSS Mobile  nav   (about_us) -------------------------------- */
+/* -----  СSS Mobile  nav   (html)   end ---------------------------- */
+/* -----  СSS Mobile  nav   (about_us) -------------------------------- */
 
 .conttop {     /*       акуратно двойной класс  !!!      */
    margin-top: 3%;
    margin-bottom: 1%;
 }
-
-
-
 
 .about_us_text {
    display: block;
@@ -849,9 +1039,6 @@ ul.list li {
    width: 100%;
    height: 10%;
 }
-
-
-
 
 .text_br {
    display: block;
@@ -871,13 +1058,9 @@ ul.list li {
  
 }
 
-
-
 .about_us {
    margin: 0;
    padding: 0;
-
-
 }
 
 h2.zag {
@@ -893,7 +1076,6 @@ h2.zag {
    margin: 0;
    padding: 0;
 }
-
 
 .about_us_text_next {
    display: block;
@@ -1074,7 +1256,7 @@ input {
 
 
 /*                                                                            */
-/*                                  футер топ                                 */
+/*         футер топ            */
 
 .messangers {
    margin: 0;
@@ -1201,205 +1383,7 @@ input {
    display: block;
    margin: 0;
    background: #1A1A1A;
-
-
 }
-
-/*                          конец верхнего футора    */
-
-
-/* ------------------------------   СSS Mobile  Footer end -------------------------------- */
-
-
-
-
-
-
 }
+/*     конец верхнего футора    */
 
-@media only screen 
-and (min-device-width : 562px)
-and (max-device-width : 900px){
-
-.main {
-   margin: 60px auto;
-   width: 100%;
-}
-
-.intro {
-   margin: 0;
-   padding: 5%;
-
-
-
-} 
-
-.connect {
-   display: inline-block;
-
-}
-
-/*                   страница          о нас                  */
-.about_us {
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-
-}
-
-
-.about_us_textright {
-   display: none;
-}
-
-.about_us_text {
-   display: block;
-   margin: 0;
-   padding: 10%;
-   float: none;
-   width: 78%;
-
-   
-
-
-}
-
-.about_us_text_next {
-   padding: 0;
-   margin: 0;
-
-
-}
-/*                   страница          контакты               */
-.intro_contact {
-   display: block;
-   margin-bottom: 30px;
-}
-
-.intro_title_contact {
-   display: block;
-   padding: 10%;
-   margin: 0 auto;
-   float: none;
-   width: 80%;
-}
-
-.intro_title_contact h2{
-   text-align: center;
-}
-
-.contact_left_contact {
-   margin-left: 20%;
-}
-
-.bloc_contact {
-   float: none;
-   display: block;
-   padding: 0 10%;
-   width: 80%;
-}
-
-.bloc_contact h2 {
-   text-align: center;
-}
-/*            footer  mob     */
-
-.messangers {
-   display: block;
-   width: 80%;
-   padding-top: 10px;
-   height: 70px;
-}
-
-
-.footer {
-   display: block;
-}
-
-.footer_meseger a img {
-   margin: 2% 6% 5% 6%;
-   width: 9%;
-
-}
-
-
-.footer_nav {
-   display: block;
-   padding: 0;
-   margin: 0 auto;
-   padding-top: 8%;
-   border: none;
-
-
-}
-
-.footor_li {
-   padding: 0;
-   font-size: 20px;
-   float: none;
-
-}
-
-.footer_info {
-display: block;
-padding-top: 5%;
-border: none;
-margin: 0 auto;
-
-}
-
-.footer_loc {
-   margin: 0 auto;
-   padding: 0;
-   display: block;
-   text-align: center;
-
-}
-
-.footer_loc a {
-   display: none;
-}
-
-.end {
-display: flex;
-width: 100%;
-}
-
-}
-
-/*                                 */
-
-@media only screen 
-and (min-device-width : 900px)
-and (max-device-width : 1400px){
-
-.about_us_text_blok {
-   width: 200%;
-
-}
-
-
-
-.about_us_text_right_ul {
-   padding: 0;
-}
-
-.about_us_textright_img img {
-   margin: 60px 0 0 0px;
-   width: 90%;
-}
-
-.intro_title_contact {
-   padding: 0 5%;
-}
-
-.bloc_contact {
-   width: 45%;
-   padding: 0 5%;
-}
-
-
-
-
-}

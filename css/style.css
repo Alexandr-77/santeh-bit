@@ -330,7 +330,7 @@ textarea {
 .inputdata {
   font-weight: 700;
   color: black;
-  resize: vertica5;
+  resize: vertical;
 }
 
 .btn {

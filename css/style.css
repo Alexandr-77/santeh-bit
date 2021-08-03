@@ -278,7 +278,7 @@ a:hover {
    font-weight: 700;
    padding: 0 0 0 60px;
    height: 50px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 .iconsmind_mail_contact{
    display: flex;
@@ -288,7 +288,7 @@ a:hover {
    font-weight: 700;
    padding: 0 0 0 60px;
    height: 50px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 
@@ -301,7 +301,7 @@ a:hover {
    font-weight: 700;
    padding: 0 0 0 60px;
    height: 50px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 form {
@@ -328,8 +328,9 @@ textarea {
 }
 
 .inputdata {
-  font-weight: 900;
+  font-weight: 700;
   color: black;
+  resize: vertica5;
 }
 
 .btn {

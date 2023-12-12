@@ -93,7 +93,8 @@ body {
    margin: 16px 0;
 }
 .logo img {
-   width: 150px;
+   width: 190px;
+   filter: drop-shadow(1px 1px 1px #fff);
 }
 .list {
    display: flex;
@@ -115,10 +116,10 @@ body {
    text-transform: uppercase;
 }
 .active-li {
-   color: tomato !important;
+   color: #E12839 !important;
 }
 .list li a:hover {
-   color: tomato;
+   color: #E12839;
 } 
 .cont a {
    color: #000;
@@ -130,14 +131,14 @@ a {
 }
 
 a:hover {
-   color: tomato;
+   color: #E12839;
    text-decoration: dashed;
 }
 .iconsmind-telephone a:hover {
-   color: tomato;
+   color: #E12839;
 } 
 .topbar-email a:hover {
-   color: tomato;
+   color: #E12839;
 } 
 .text_br h1 {
    font-size: 46px;

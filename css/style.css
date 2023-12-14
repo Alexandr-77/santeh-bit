@@ -116,7 +116,7 @@ body {
 
 .logo img {
 	width: 190px;
-	filter: drop-shadow(1px 1px 1px #fff);
+	/* filter: drop-shadow(1px 1px 1px #fff); */
 }
 
 .list {

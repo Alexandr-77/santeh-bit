@@ -255,6 +255,7 @@ a:hover {
 	padding-top: 50px;
 	width: 100%;
 	margin-bottom: 60px;
+	color: #615d5d;
 }
 
 .intro_title_contact {
@@ -262,24 +263,13 @@ a:hover {
 	width: 45%;
 }
 
-.intro_title_contact h2 {
-	color: #615d5d;
-}
-
 .bloc_contact {
 	display: block;
 	width: 40%;
 }
-
-.bloc_contact h2 {
-	color: #615d5d;
-}
-
 .contact_left_contact {
 	margin-top: 40px;
-	color: #615d5d;
 }
-
 .iconsmind_Telephone_contact {
 	display: flex;
 	align-items: center;

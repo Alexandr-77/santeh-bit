@@ -1,5 +1,5 @@
-Первый сверстанный сайт  для магаина в котором работал .
+# Сахтехбыт магазин сантехники
 https://alexandr-77.github.io/site/
 
-![image](./img/site.jpg)
+![image](img/site.jpg)
 
